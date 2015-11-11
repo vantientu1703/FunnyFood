@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShowDetailScreenViewController">
+            <connections>
+                <outlet property="foodName" destination="1uv-hy-Dq6" id="Jvh-3M-4Wy"/>
+                <outlet property="imageFood" destination="i9b-IR-kdD" id="Ino-8P-mHR"/>
+                <outlet property="labelPrice" destination="ezc-56-rnz" id="ase-jB-j1P"/>
+                <outlet property="labelSaleOff" destination="1zp-ee-exq" id="1bS-C8-sKi"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Foodname" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1uv-hy-Dq6">
+                    <rect key="frame" x="72" y="367" width="231" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$20\" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezc-56-rnz">
+                    <rect key="frame" x="166" y="417" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-10%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1zp-ee-exq">
+                    <rect key="frame" x="166" y="467" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="i9b-IR-kdD">
+                    <rect key="frame" x="57" y="98" width="260" height="205"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="260" id="6MB-Jo-kfz"/>
+                        <constraint firstAttribute="height" constant="205" id="xKe-dQ-FPi"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="1uv-hy-Dq6" firstAttribute="top" secondItem="i9b-IR-kdD" secondAttribute="bottom" constant="64" id="49O-MC-HyY"/>
+                <constraint firstItem="1zp-ee-exq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="166" id="BEr-gt-qv1"/>
+                <constraint firstItem="i9b-IR-kdD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="98" id="E4T-WW-jGQ"/>
+                <constraint firstAttribute="trailing" secondItem="i9b-IR-kdD" secondAttribute="trailing" constant="58" id="LhF-sS-8tB"/>
+                <constraint firstAttribute="trailing" secondItem="1uv-hy-Dq6" secondAttribute="trailing" constant="72" id="QHz-ld-oxh"/>
+                <constraint firstItem="ezc-56-rnz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="166" id="VTj-It-Vwv"/>
+                <constraint firstAttribute="trailing" secondItem="ezc-56-rnz" secondAttribute="trailing" constant="167" id="WEG-01-y2j"/>
+                <constraint firstItem="1zp-ee-exq" firstAttribute="top" secondItem="ezc-56-rnz" secondAttribute="bottom" constant="29" id="Xgl-Ik-I8D"/>
+                <constraint firstItem="i9b-IR-kdD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="57" id="g0Y-Qr-JJf"/>
+                <constraint firstAttribute="trailing" secondItem="1zp-ee-exq" secondAttribute="trailing" constant="167" id="gym-kO-ZK3"/>
+                <constraint firstItem="ezc-56-rnz" firstAttribute="top" secondItem="1uv-hy-Dq6" secondAttribute="bottom" constant="29" id="wpR-52-SBW"/>
+                <constraint firstItem="1uv-hy-Dq6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="72" id="xQn-wu-cin"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="360.5" y="209.5"/>
+        </view>
+    </objects>
+</document>

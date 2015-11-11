@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainScreen">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAQ-aA-Yqf">
+                    <rect key="frame" x="0.0" y="138" width="128" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="128" id="GQ6-Mv-Ut0"/>
+                        <constraint firstAttribute="height" constant="128" id="U1H-Bi-HZy"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="icecream.png"/>
+                    <connections>
+                        <action selector="iceCream:" destination="-1" eventType="touchUpInside" id="8uQ-as-yY1"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qxl-cr-Hbw">
+                    <rect key="frame" x="136" y="156" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="N8D-fJ-tws"/>
+                        <constraint firstAttribute="height" constant="100" id="uPb-1a-if6"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="drink.png"/>
+                    <connections>
+                        <action selector="drink:" destination="-1" eventType="touchUpInside" id="Ff9-1d-YTG"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vKn-lx-khu">
+                    <rect key="frame" x="259" y="156" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="D9Z-T3-35W"/>
+                        <constraint firstAttribute="height" constant="100" id="ict-Zt-IOV"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="birthday.png"/>
+                    <connections>
+                        <action selector="birthday:" destination="-1" eventType="touchUpInside" id="Agr-FT-9Qh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4s-OG-DGZ">
+                    <rect key="frame" x="74" y="350" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="CZz-Nv-Vlq"/>
+                        <constraint firstAttribute="height" constant="100" id="Xke-ke-NKq"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="cookies.png"/>
+                    <connections>
+                        <action selector="cookies:" destination="-1" eventType="touchUpInside" id="N0c-bu-Cnw"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EPS-ei-l1T">
+                    <rect key="frame" x="221" y="350" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="J8N-RU-u0h"/>
+                        <constraint firstAttribute="height" constant="100" id="KNA-87-nJp"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="bread2.png"/>
+                    <connections>
+                        <action selector="bread:" destination="-1" eventType="touchUpInside" id="g98-NF-luf"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ice Cream" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rdg-ku-Ss0">
+                    <rect key="frame" x="32" y="292" width="78" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drink" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhC-6d-99J">
+                    <rect key="frame" x="166" y="292" width="41" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birthday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sMy-wY-ZFv">
+                    <rect key="frame" x="273" y="292" width="65" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cookies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rgr-F0-4zk">
+                    <rect key="frame" x="89" y="458" width="71" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bread" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tds-sP-5A3">
+                    <rect key="frame" x="246" y="458" width="50" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="qxl-cr-Hbw" firstAttribute="leading" secondItem="bAQ-aA-Yqf" secondAttribute="trailing" constant="8" id="0DJ-ik-l7O"/>
+                <constraint firstItem="EPS-ei-l1T" firstAttribute="leading" secondItem="f4s-OG-DGZ" secondAttribute="trailing" constant="47" id="2B8-Gl-Qcm"/>
+                <constraint firstItem="bAQ-aA-Yqf" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="138" id="2f5-nU-oay"/>
+                <constraint firstItem="EPS-ei-l1T" firstAttribute="top" secondItem="sMy-wY-ZFv" secondAttribute="bottom" constant="37" id="7FU-Ws-b6P"/>
+                <constraint firstItem="sMy-wY-ZFv" firstAttribute="leading" secondItem="bhC-6d-99J" secondAttribute="trailing" constant="66" id="7pF-D9-vMI"/>
+                <constraint firstItem="bhC-6d-99J" firstAttribute="leading" secondItem="rdg-ku-Ss0" secondAttribute="trailing" constant="56" id="8J2-gm-xwg"/>
+                <constraint firstItem="vKn-lx-khu" firstAttribute="leading" secondItem="qxl-cr-Hbw" secondAttribute="trailing" constant="23" id="8PY-MC-cfd"/>
+                <constraint firstItem="vKn-lx-khu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="156" id="92c-ei-2oU"/>
+                <constraint firstItem="f4s-OG-DGZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="74" id="Efu-DD-g4d"/>
+                <constraint firstItem="f4s-OG-DGZ" firstAttribute="top" secondItem="rdg-ku-Ss0" secondAttribute="bottom" constant="37" id="Oi5-Zw-xZB"/>
+                <constraint firstItem="qxl-cr-Hbw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="156" id="QIn-ox-cnc"/>
+                <constraint firstItem="sMy-wY-ZFv" firstAttribute="top" secondItem="vKn-lx-khu" secondAttribute="bottom" constant="36" id="UmU-KQ-gYP"/>
+                <constraint firstItem="rdg-ku-Ss0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="32" id="Ypg-ti-2IX"/>
+                <constraint firstItem="bhC-6d-99J" firstAttribute="top" secondItem="qxl-cr-Hbw" secondAttribute="bottom" constant="36" id="ZQC-EV-UjV"/>
+                <constraint firstItem="rdg-ku-Ss0" firstAttribute="top" secondItem="bAQ-aA-Yqf" secondAttribute="bottom" constant="26" id="h0U-gU-pC8"/>
+                <constraint firstAttribute="trailing" secondItem="bAQ-aA-Yqf" secondAttribute="trailing" constant="247" id="rqW-8A-HzC"/>
+                <constraint firstItem="bAQ-aA-Yqf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="u2G-Cc-TID"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="395.5" y="124.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="birthday.png" width="64" height="64"/>
+        <image name="bread2.png" width="128" height="128"/>
+        <image name="cookies.png" width="128" height="128"/>
+        <image name="drink.png" width="64" height="64"/>
+        <image name="icecream.png" width="94" height="128"/>
+    </resources>
+</document>
